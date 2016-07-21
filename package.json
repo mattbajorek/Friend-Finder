@@ -1,0 +1,28 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "Week of 13 HW - Node and Express Servers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattbajorek/Friend-Finder.git"
+  },
+  "keywords": [
+    "matching",
+    "site"
+  ],
+  "author": "Matt Bajorek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattbajorek/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/mattbajorek/Friend-Finder#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
