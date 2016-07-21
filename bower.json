@@ -1,0 +1,25 @@
+{
+  "name": "friend-finder",
+  "description": "Week of 13 HW - Node and Express Servers",
+  "main": "server.js",
+  "authors": [
+    "Matt Bajorek"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "matching",
+    "site"
+  ],
+  "homepage": "https://github.com/mattbajorek/Friend-Finder",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "components-font-awesome": "^4.6.3"
+  }
+}
