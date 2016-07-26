@@ -4,11 +4,12 @@ var path = require('path');
 var jsonfile = require('jsonfile');
 var file = './app/data/friends.js';
 
+// Show all friends
 router.get('/api/friends', function(req, res) {
 	res.json(jsonfile.readFileSync(file));
 })
 
-// Create New Characters - takes in JSON input
+// Get friend post req
 router.post('/api/friends', function(req, res){
 	var friends = jsonfile.readFileSync(file);
 	friends.push(req.body);
