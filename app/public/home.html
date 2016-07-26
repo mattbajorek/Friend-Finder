@@ -5,15 +5,122 @@
 	<title>FriendFinder</title>
 
 	<!-- Latest compiled and minified CSS & JS -->
-	<link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.min.css">
-	<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 	<!-- Font Awesome Glyphicons -->
-	<link rel="stylesheet" href="../../bower_components/components-font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./bower_components/components-font-awesome/css/font-awesome.min.css">
 
-	<!-- Custom CSS -->
-	<link rel="stylesheet" href="./home.css">
+	<style>
+		html, body {
+			position: fixed;
+			height: 100%;
+			width: 100%;
+		}
+
+		h1,h2 {
+			color: black;
+		}
+
+		h1 {
+			font-size: 10vh;
+		}
+
+		h2 {
+			font-size: 2.5vh;
+		}
+
+		a, a:hover {
+			color: black;
+		}
+
+		#center {
+			height: 100%;
+			padding-top: 25%;
+			text-align: center;
+		}
+
+		.container, .row {
+			height: 100%;
+		}
+
+		.footer {
+			position: absolute;
+			width: 100%;
+			bottom: 0;
+		}
+
+		#chevron-top {
+		  position: absolute;
+		  height: 30%;
+		  width: 100%;
+		}
+
+		#chevron-top:before {
+		  content: '';
+		  position: absolute;
+		  top: 50%;
+		  left: 0;
+		  height: 100%;
+		  width: 50%;
+		  background: #c0de5b;
+		  -webkit-transform: skew(0deg, -45deg);
+		  -moz-transform: skew(0deg, -45deg);
+		  -ms-transform: skew(0deg, -45deg);
+		  -o-transform: skew(0deg, -45deg);
+		  transform: skew(0deg, -45deg);
+		}
+		#chevron-top:after {
+		  content: '';
+		  position: absolute;
+		  top: 50%;
+		  right: 0;
+		  height: 100%;
+		  width: 50%;
+		  background: #c0de5b;
+		  -webkit-transform: skew(0deg, 45deg);
+		  -moz-transform: skew(0deg, 45deg);
+		  -ms-transform: skew(0deg, 45deg);
+		  -o-transform: skew(0deg, 45deg);
+		  transform: skew(0deg, 45deg);
+		}​
+
+		#chevron-bottom {
+		  position: absolute;
+		  height: 30%;
+		  width: 100%;
+		}
+
+		#chevron-bottom:before {
+		  content: '';
+		  position: absolute;
+		  bottom: 25%;
+		  left: 0;
+		  height: 30%;
+		  width: 50%;
+		  background: #c0de5b;
+		  -webkit-transform: skew(0deg, 45deg);
+		  -moz-transform: skew(0deg, 45deg);
+		  -ms-transform: skew(0deg, 45deg);
+		  -o-transform: skew(0deg, 45deg);
+		  transform: skew(0deg, 45deg);
+		}
+		#chevron-bottom:after {
+		  content: '';
+		  position: absolute;
+		  bottom: 25%;
+		  right: 0;
+		  height: 30%;
+		  width: 50%;
+		  background: #c0de5b;
+		  -webkit-transform: skew(0deg, -45deg);
+		  -moz-transform: skew(0deg, -45deg);
+		  -ms-transform: skew(0deg, -45deg);
+		  -o-transform: skew(0deg, -45deg);
+		  transform: skew(0deg, -45deg);
+		}​
+	</style>
 
 </head>
 <body>
